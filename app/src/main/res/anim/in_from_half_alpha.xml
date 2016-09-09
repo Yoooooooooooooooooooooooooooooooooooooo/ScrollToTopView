@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  Activity 向下切出的动画 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:anim/accelerate_interpolator">
+    <alpha android:fromAlpha="0.65" android:toAlpha="1"/>
+    <translate
+        android:fromXDelta="0%p"
+        android:toXDelta="0%p" />
+</set>
